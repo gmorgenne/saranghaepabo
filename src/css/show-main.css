@@ -1,0 +1,44 @@
+.show-main {
+	max-width: 48.85%;
+	margin-left: 0;
+	float: left;
+	padding: 15px;
+}
+
+.show-actor-list {
+	min-width: 40.15%;
+	padding: 0 10px;
+}
+
+.actor-list {
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid black;
+	padding: 0 10px;
+	min-width: 44%;
+	text-align: center;
+}
+
+.actor-list-actor p {
+	margin-top: -2%;
+}
+
+.actor-list-view-cast {
+	text-align: center;
+}
+
+@media screen and (max-width: 992px)  {
+	.show-main {
+		float: none;
+		max-width: 100%;
+
+	}
+	.show-actor-list {
+		float: none;
+		max-width: 100%;
+	}
+	.actor-list {
+		margin: 0px 10px !important;
+		font-size: 1.3em;
+	}
+}

@@ -1,0 +1,63 @@
+what's good so far:
+colors
+clean layout
+	horizontal menu simple options
+	white for content and focus and readability
+	color for background
+	clean lines
+	
+what's important
+	SEO
+	search
+	layout
+		wrapper
+		header
+			logo
+			title
+			text
+		
+		menu ([home, k-beauty, k-dramas[shows, actors]])
+		content
+		sidebar
+		footer	
+		
+	color pallette
+		backgrounds
+			white
+			millenial pink #f9e5e5
+			salmon-ish pink #f25f70
+			charcoal grey #4f4f4f
+			footer grey #404040
+		text
+			header/featured text is white
+			content text is black/charcoal grey
+		
+	page types
+		home
+		category (k-dramas, k-beauty)
+			k-dramas
+				shows
+					recap page
+						example of a recap page with multiple recaps
+							all the parts: episode #, episode title, length? whatever else about the episode
+												text of the recap
+							mockup of how it would look
+								layout
+								general styling (sizes of titles/text, bold text, etc)
+							
+							comments on each episode recap include a rating & small text blurb
+							rating from editors & rating from fans
+					full cast page
+					{
+						category/genre listing page
+					}
+				actor
+					{
+						shows list & role in show (male lead/female lead...)
+						pictures
+						favorite quotes 
+					}
+			k-beauty
+				landing page (skin care, make-up, brand)
+					product review
+		

@@ -1,0 +1,35 @@
+.cast-grid {
+
+}
+
+.cast-grid__header {
+	
+}
+
+.cast-grid__container {
+	padding: 1% 4%;
+}
+
+.cast-grid__cell {
+	display: inline-block;
+    min-height: 300px;
+    padding: 0 15px;
+	vertical-align: top;
+	text-align: center;
+}
+
+.cast-grid__image {
+	
+}
+
+.cast-grid__content {
+	font-size: 1rem;
+}
+
+.cast-grid-actor__title {
+    font-size: 1.2rem;
+}
+
+.cast-grid-actor__role {
+	font-size: 1rem;
+}

@@ -1,0 +1,22 @@
+.recap {
+	padding: 40px;
+}
+
+.recap__image {
+	display: inline-block;
+	padding: 15px 40px;
+}
+
+.recap__title {
+	
+}
+
+.recap__content {
+	display: inline-block;
+	
+}
+
+.recap__navigation {
+	text-align: center;
+}
+

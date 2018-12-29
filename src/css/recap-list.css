@@ -1,0 +1,62 @@
+.recap-list {
+    color: fff;
+	background-color: #f25f70;
+	font-size: 1 rem;
+}
+
+.recap-list hr {
+	width: 86%;
+}
+
+.featured-recap-list__container {
+	min-height: 400px;
+	padding: 25px;
+	font-size: 1.6rem;
+}
+
+.featured-recap-list__container .recap-list__content {
+	max-width: 40%;
+}
+
+.recap-list {
+	min-height: 200px;
+}
+
+.recap-list__header {
+	
+}
+
+.recap-list__container {
+	padding: 25px;
+    min-height: 200px;
+}
+
+.recap-list__wrapper {
+	
+}
+
+.recap-list__image {
+	float: left;
+}
+
+.recap-list__content {
+	float: left;
+    max-width: 60%;
+    margin-left: 5%;
+	margin-top: -40px;
+}
+
+.recap-list__episode-number {
+	float: right;
+}
+
+.episode-number {
+	background-color: #404040;
+	padding: 10px;
+	border: 3px solid white;
+	border-radius: 15px;
+}
+
+.recap-list__episode-summary {
+	
+}
