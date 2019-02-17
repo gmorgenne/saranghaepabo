@@ -109,12 +109,61 @@ header.fixed .site-description {
 	margin-top: 5px;
 }
 
+.account-menu {
+	position: absolute;
+	top: 84px;
+	right: 5px;
+	font-size: 12px;
+	font-size: 1.2rem;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.account-menu.logged-in {
+	top: 45px;
+}
+
+.account-menu img {
+	max-height: 55px;
+	display: none;
+}
+
+.logged-in~.account-menu img {
+	display: inline;
+}
+
+.account-menu.open {
+	background-color: #fff;
+}
+
+.account-menu-items {
+	background-color: #fff;
+	margin-top: -25px;
+}
+
+header.fixed .account-menu {
+	color: #fff;
+}
+
+header.fixed .account-menu.open {
+	color: #404044;
+}
+
+header.fixed .account-menu.logged-in {
+	vertical-align: middle;
+	top: 72px;
+}
+
+header.fixed .account-menu.logged-in img {
+	max-height: 40px;
+	vertical-align: middle;
+}
+
 nav {
 	background-color: #f25f70;
     border-bottom: 2px solid rgba(0, 0, 0, 0.15);
     color: #fff;
     display: block;
-    padding: 0 1em;
 }
 
 .primary-navigation {
@@ -315,7 +364,8 @@ footer {
 		font-size: 1.4rem;
 		font-weight: bold;
 		line-height: 1.7143;
-		text-align: center;
+		text-align: left;
+		padding-left: 35px;
 		text-transform: uppercase;
 	}
 	
@@ -335,9 +385,37 @@ footer {
 		line-height: 1;
 		margin-top: 5px;
 	}
+
+	.account-menu {
+		color: #fff;
+		font-size: 12px;
+		font-size: 1.4rem;
+		font-weight: bold;
+		top: 79px;
+	}
+
+	.account-menu.open {
+		color: #404040;
+	}
+
+	header.fixed .account-menu {
+		top: 72px;
+	}
+
+	.account-menu.logged-in {
+		top: 79px;
+	}
+
+	.account-menu.logged-in img {
+		display: none !important;
+	}
 }
 
 @media screen and (max-width: 600px) {
+	.menu-toggle {
+		padding-left: 5px;
+	}
+
 	header .site-title {
 		font-size: 1.4rem;
 	}

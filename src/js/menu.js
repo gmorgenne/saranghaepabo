@@ -38,4 +38,28 @@ $(function () {
 		$('.menu-toggle__buttons-open').toggle();
 		$('.menu-toggle__buttons-close').toggle();
 	});
+
+	$('body').on('click', '.account-menu', function() {
+		var $this = $(this);
+		var $menuItems = $('.account-menu-items');
+		if ($this.hasClass('logged-in')) {
+			if ($this.hasClass('open')) {
+				$this.removeClass('open');
+				$menuItems.hide();
+			} else {
+				$this.addClass('open');
+				$menuItems.show();
+			}
+		} else {
+			$this.addClass('logged-in');
+			var $img = $this.find('img');
+			if ($img) {
+				$img.show();
+			}
+			var $name = $this.find('span');
+			if ($name) {
+				$name.text("Albus Dumbledore");
+			}
+		}
+	});
 });
