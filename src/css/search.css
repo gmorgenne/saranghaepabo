@@ -1,8 +1,7 @@
 .search {
 	background-color: #fff;
-    padding: 35px 15px;
+    padding: 0 15px 35px;
 }
-.search-container {}
 .search-main {
 	float: left;
     max-width: 80%;

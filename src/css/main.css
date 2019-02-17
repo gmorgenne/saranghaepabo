@@ -24,10 +24,15 @@ body {
 header {
 	display: block;
 	background-color: #f9e5e5;
-	position: fixed;
+	position: relative;
 	width: 100%;
+}
+
+header.fixed {
+	position: fixed;
 	top: 0;
 	left: 0;
+	z-index: 100;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -50,8 +55,23 @@ a {
 	text-align: center;
 }
 
+.header__container-main {
+	text-align: left;
+	margin-left: 90px;
+}
+
+.header__container-aside {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.header__container img {
+	max-height: 70px;
+}
+
 header.fixed .header__container {
-	min-height: 60px;
+	min-height: 50px;
 	padding: 0;
 }
 
@@ -64,8 +84,9 @@ header.fixed .header__container {
 
 header.fixed .site-title {
 	font-size: 18px;
-	font-size: 2rem;
+	font-size: 1.6rem;
 	line-height: 0.8;
+	margin: 15px 0;
 }
 
 .site-title a {
@@ -77,14 +98,15 @@ header.fixed .site-title {
     font-size: 13px;
     font-size: 1.3rem;
     line-height: 1.8462;
-    margin-bottom: 15px;
-	margin-top: 15px;
+    margin-bottom: 5px;
+	margin-top: -15px;
 }
 
 header.fixed .site-description {
 	font-size: 13px;
 	font-size: 0.8rem;
 	line-height: 1;
+	margin-top: 5px;
 }
 
 nav {
@@ -173,7 +195,11 @@ nav {
 }
 
 main {
-	margin-top: 270px;
+	
+}
+
+header.fixed~main {
+	margin-top: 225px;
 }
 
 .main-content {
@@ -195,7 +221,7 @@ main {
 }
 
 .page-title h1 {
-	margin: 0 15px 0 0;
+	margin: 0 15px;
 	color: #fff;
 	display: block;
 	font-size: 24px;
@@ -285,7 +311,7 @@ footer {
 		color: #fff;
 		display: block;
 		font-family: "Source Sans Pro", Arial, sans-serif;
-		font-size: 14px;
+		font-size: 12px;
 		font-size: 1.4rem;
 		font-weight: bold;
 		line-height: 1.7143;
@@ -297,15 +323,26 @@ footer {
 		display: none;
 	}
 
-	header.fixed .site-title {
-		font-size: 18px;
-		font-size: 2rem;
+	header .site-title {
+		font-size: 13px;
+		font-size: 2.6rem;
 		line-height: 0.8;
 	}
 	
-	header.fixed .site-description {
-		font-size: 13px;
+	header .site-description {
+		font-size: 8px;
 		font-size: 0.8rem;
 		line-height: 1;
+		margin-top: 5px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	header .site-title {
+		font-size: 1.4rem;
+	}
+
+	header .site-description {
+		font-size: 0.6rem;
 	}
 }

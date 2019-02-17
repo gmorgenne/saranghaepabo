@@ -1,3 +1,3 @@
 <div class="search-results-summary">
-	<h4 class="search-results-summary__title">### Results for ""</h4>
+	<span class="search-results-summary__title">### Results for ""</span>
 </div><!-- end of Results Summary -->
